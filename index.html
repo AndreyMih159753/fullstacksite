@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack MSHP | Главная</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-block nav-left">
+                <a href="index.html" class="mshp-logo">
+                    MSHP FULLSTACK
+                </a>
+                <a href="https://lms.informatics.ru/" target="_blank" class="study-link">
+                    Обучение
+                </a>
+            </div>
+            <div class="nav-block nav-right">
+                <div class="nav-links">
+                    <a href="tech.html" class="nav-link">
+                        Технологии
+                    </a>
+                    <a href="#" class="nav-link">
+                        О нас
+                    </a>
+                    <a href="#" class="nav-link">
+                        Блог
+                    </a>
+                </div>
+                <div class="nav-btns">
+                    <button class="btn btn-main" type="button">
+                        Войти
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        Регистрация
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="how-to">
+                <img src="https://expertology.ru/upload/medialibrary/c76/2mrjy8o84ta10oqw5e0z51442r8z03kj/12-Moskovskaya-shkola-programmistov.jpg"
+                    alt="mshp-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
+                    alt="tailwind-css-logo">
+                <img src="https://avatars.mds.yandex.net/i?id=94a9bb7b95b085133eaad113024f36c6_l-4613903-images-thumbs&n=13"
+                    alt="nuxt-js-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png"
+                    alt="js-logo">
+                <button type="button" class="btn btn-search">
+                    🔍 как начать?
+                </button>
+            </div>
+        </section>
+        <section class="info">
+            <h2>
+                Станьте крутыми
+            </h2>
+            <p>
+                Какие технологии используют опытные фуллстек-разработчики в современных компаниях? МШП знает ответ:
+                Nuxt, Tailwind, Git, Websocket и OAuth 2.0
+            </p>
+            <button class="btn btn-main btn-watch">
+                Просмотреть
+            </button>
+            <script>
+                let btnWatch = document.querySelector(`.btn-watch`);
+
+                btnWatch.addEventListener('click', () => {
+                    window.location.href = "http://127.0.0.1:5500/2-%D0%B9%20%D0%BA%D1%83%D1%80%D1%81/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B%20%D1%81%20%D1%83%D1%80%D0%BE%D0%BA%D0%BE%D0%B2/Fullstack-%D1%81%D0%B0%D0%B9%D1%82%20(1%20%D1%83%D1%80%D0%BE%D0%BA)/tech.html";
+                });
+            </script>
+        </section>
+        <div class="search">
+            <div class="search-div">
+                <input type="text" id="search-input" placeholder="Искать" class="search-input">
+                <button class="btn btn-find">Найти</button>
+            </div>
+            <div class="search-close">
+                <span class="close">Закрыть</span>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
