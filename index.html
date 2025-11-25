@@ -75,10 +75,32 @@
                 <input type="text" id="search-input" placeholder="Искать" class="search-input">
                 <button class="btn btn-find">Найти</button>
             </div>
+            <div class="search-not-founded">
+                <span class="snt-text">
+                    По вашему запросу ничего не найдено
+                </span>
+            </div>
             <div class="search-close">
                 <span class="close">Закрыть</span>
             </div>
         </div>
+        <script>
+            let searchDiv = document.querySelector(`.search`);
+            let btnSearch = document.querySelector(`.btn-search`);
+            let btnFind = document.querySelector(`.btn-find`);
+            let sntText = document.querySelector(`.snt-text`);
+            let closeBtn = document.querySelector(`.close`);
+
+            btnSearch.addEventListener(`click`, () => {
+                searchDiv.classList.add('search-selected');
+            });
+            btnFind.addEventListener(`click`, () => {
+                sntText.classList.add('snt-text-selected');
+            });
+            closeBtn.addEventListener(`click`, () => {
+                searchDiv.classList.remove('search-selected');
+            });
+        </script>
     </main>
 </body>
 

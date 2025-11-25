@@ -166,6 +166,10 @@ main {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.search-selected {
+    display: block;
+}
+
 .search-input {
     padding: 10px;
     border-radius: 15px;
@@ -211,4 +215,14 @@ main {
 
 .search-close:active {
     color: #bb0000;
+}
+
+.snt-text {
+    display: none;
+    color: white;
+    margin-left: 41%;
+}
+
+.snt-text-selected {
+    display: block;
 }
