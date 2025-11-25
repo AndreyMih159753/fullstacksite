@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #393939;
+    transition: 500ms;
+}
+
+a:hover {
+    color: #1a1a1a;
+}
+
+a:active {
+    color: black;
+}
+
+header {
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #2f97db;
+    font-weight: 600;
+}
+
+.nav-link.active:hover {
+    color: #1a1a1a;
+}
+
+.nav-link.active:active {
+    color: black;
+}
+
+.nav-block,
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.btn-main {
+    background-color: #008EE7;
+    color: white;
+}
+
+.btn-main:hover {
+    background-color: #2d87c4;
+}
+
+.btn-main:active {
+    background-color: #287cb4;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    background-color: #ececec;
+}
+
+.btn-secondary:hover {
+    background-color: #c4c4c4;
+}
+
+.btn-secondary:active {
+    background-color: #aaa9a9;
+    border-radius: 10px;
+}
+
+section {
+    max-width: 50%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech-use {
+    display: flex;
+    flex-direction: column;
+    color: #1DB3C4;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-use h2 {
+    font-size: 52px;
+}
+
+.tech-use p {
+    width: 325px;
+}
+
+.tech-card-img img {
+    max-width: 150px;
+}
+
+.tech-card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.tech.div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.js-text {
+    color: #f0dc4e;
+}
+
+.js-text-p {
+    color: #b8a938;
+}
+
+.tailwind-css-text {
+    color: #35bef8;
+}
+
+.tailwind-css-text-p {
+    color: #31abdf;
+}
+
+.nuxt-js-text {
+    color: #00dd80;
+}
+
+.nuxt-js-text-p {
+    color: #00a761;
+}
+
+.git-text {
+    color: #f05033;
+}
+
+.git-text-p {
+    color: #b13b26;
+}
